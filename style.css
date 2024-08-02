@@ -1,3 +1,15 @@
 h1{
     background: linear-gradient(to rigth, #00ff00, #0011ff, #00ff00)
 }
+*{
+    margin: 0;
+    padding: 0%;
+}
+.cabecalho{
+background-color: #00ff00;
+padding: 1.5;
+}
+.cabecalho{
+background-color: #0011ff;
+padding: 1.5;
+}
