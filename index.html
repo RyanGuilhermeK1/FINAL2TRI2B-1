@@ -5,43 +5,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Le Mans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> 
+    <title>Escola Legal!</title>
 </head>
 
 <body>
-    <header class="cabeçalho">
-        <div class="container">
-          <input type="checkbox" id="menu" class="container__botao">
-          <label for="menu">
-            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-          </label>
-          <ul class="lista-menu">
-            <li class="lista-menu__titulo">Categorias</li>
-            <li class="lista-menu__item">
-              <a href="#" class="lista-menu__link">Programação</a>
-            </li>
-            <li class="lista-menu__item">
-              <a href="#" class="lista-menu__link">Front-end</a>
-            </li>
-            <li class="lista-menu__item">
-              <a href="#" class="lista-menu__link">Infraestrutura</a>
-            </li>
-            <li class="lista-menu__item">
-              <a href="#" class="lista-menu__link">Business</a>
-            </li>
-            <li class="lista-menu__item">
-              <a href="#" class="lista-menu__link">Design & UX</a>
-            </li>
-          </ul>
-          <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
-        </div>
-        <div class="container">
-          <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-          <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
-          <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
-        </div>
-      </header>
-  </body>
+  <header class="cabeçalho">
+    <div class="container">
+     
+        <label for="menu">
+            <span class="cabeçalho__menu-hamburguer     
+            container__imagem">
+           </span>
+        </label>
+        <img src="Audi-Logo.wine.svg" alt="Logo da Altura Books" class="container__imagem">
+   <h1 class="container__titulo">
+<b class="container__titulo--negrito">Audi Brasil </b>
+  </h1>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus  
+       
+     Favoritos"></a>
+     <span></span>
+      <a href="#"><img src="img/Compras.svg" alt="Minhas  
+      compras"></a>
+      <span></span>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu 
+      Perfil"></a>
+    </div>
+    <ul class="lista-menu">
+      <li class="lista-menu__titulo">Categorias</li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Programação</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Front-end</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Infraestrutura</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Business</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Design & UX</a>
+      </li>
+   </ul>
+</header>
+<section class="banner">
+  <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+  <p class="banner__text">
+     Encontre em nossa loja o que precisa para sua vida!
+  </p>
+  <input type="search" class="banner__pesquisa" 
+         placeholder="Qual será a sua próxima leitura?">
+</section>
+<section class="topicos">
+  <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+  <ul class="topicos__lista">
+ </ul>
+</section>
+<section class="topicos">
+  <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+  <ul class="topicos__lista">
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">Android</a>
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">Marketing Digital</a>
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">Agile</a>
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">Startup</a> }
+      .contato__titulo,
+      .contato__texto {
+       background:var(--azul-degrade);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color:transparent;
+       background-clip: text;
+      }
+      .contato__email {
+        padding: 1em;
+        border: 1px solid var(--azul);
+        border-radius: 24px;
+        width: 90%;
+        color: var(--azul);
+      }
+      .contato__email::placeholder {
+        font-family: var(--fonte-principal);
+        color: var(--azul);
+        background: url("../img/Email.svg") no-repeat;
+        padding-left: 2em;
+    
+        .container__titulo{ }
+        .contato__titulo,
+        .contato__texto {
+         background:var(--azul-degrade);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+         background-clip: text;
+        }
+        .contato__email {
+          padding: 1em;
+          border: 1px solid var(--azul);
+          border-radius: 24px;
+          width: 90%;
+          color: var(--azul);
+        }
+        .contato__email::placeholder {
+          font-family: var(--fonte-principal);
+          color: var(--azul);
+          background: url("../img/Email.svg") no-repeat;
+          padding-left: 2em;
+      
+          .container__titulo{
+              display: none;
+        }
+        @media screen and (min-width: 1024px){
+          .container__titulo{
+              font-family: var(--fonte-secundaria);
+              font-size: 30px;
+              font-weight: 400;
+              display: block;
+          }
+            .container__titulo--negrito{
+              font-weight: 700;
+          }
+      }
+         
+            display: none;
+      }
+      @media screen and (min-width: 1024px){
+        .container__titulo{
+            font-family: var(--fonte-secundaria);
+            font-size: 30px;
+            font-weight: 400;
+            display: block;
+        }
+          .container__titulo--negrito{
+            font-weight: 700;
+        }
+    }
+       
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">HTML E CSS</a>
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">Python</a>
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">OO</a>
+    </li>
+    <li class="topicos__itens">
+      <a href="#" class="topicos__link">Java</a>
+    </li>
+  </ul>
+</section>
+<section class="contato">
+  <h2 class="contato__titulo"> Fique por dentro das novidades</h2>
+  <p class="contato__texto"> Atualizações de e-books, novos livros,  
+  promoções e outros.</p>
+  <input type="email" placeholder="Cadastre seu e-mail"    
+  class="contato__email">         
+</section>
+<div class="cabecalho">
+   <div class="container">
+     <h1 class="cabecalho_titulo">
+      <b class="cabecalho_tittuli-negrito">Alura</b>Books
+
+     </h1>
+
+   </div>
+   
+</div>
 
 </html>
